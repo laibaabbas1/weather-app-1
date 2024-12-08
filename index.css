@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(./img.jpg) ;
+   background-repeat:no-repeat ;
+   
+
+    color: #333; /* to  Dark text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    /* background-color: white; */
+    opacity: calc(50px-100);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(116, 4, 73, 0.99);
+    overflow: hidden;
+}
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    
+}
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #5e0b0b;
+
+    
+    font-size: 1em;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #05101b; /*  color for the main title */
+}
+
+h2, h3, h4 {
+    
+    margin: 5px 0;
+    color: #162635; /*color for subheadings */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #3498db; /* Blue button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0e4366; /* Darker blue on hover */
+}
+
+
+
